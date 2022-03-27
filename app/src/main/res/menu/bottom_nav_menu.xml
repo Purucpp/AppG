@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/mymatches"
+        android:icon="@drawable/ic_baseline_wine_bar_24"
+        android:title="My Matches" />
+
+    <item
+        android:id="@+id/winner"
+        android:icon="@drawable/ic_baseline_stars_24"
+        android:title="Winner" />
+
+    <item
+        android:id="@+id/gmessage"
+        android:icon="@drawable/ic_baseline_message_24"
+        android:title="Groups" />
+
+    <item
+        android:id="@+id/feed"
+        android:icon="@drawable/ic_baseline_library_books_24"
+        android:title="Feed" />
+
+
+</menu>

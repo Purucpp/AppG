@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appg">
+
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- <uses-permission android:name="android.permission.CAMERA" /> -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fic"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/fic"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppG"
+        android:usesCleartextTraffic="true">
+
+
+        <activity android:name=".BottomNavigation.Home.FruitNinja.GamePlay.FnGamePlay"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".BottomNavigation.Home.FruitNinja.EnterGame.FnEnterGame" />
+        <activity android:name=".BottomNavigation.Home.FruitNinja.SelectStar.FNSelectStart" />
+        <activity android:name=".BottomNavigation.Home.FruitNinja.SelectGame.SelectGame" />
+        <activity android:name=".NavigationView.SpinAndWin" />
+        <activity android:name=".NavigationView.MyNotificaion" />
+        <activity android:name=".NavigationView.More" />
+        <activity android:name=".NavigationView.MyInfoSetting" />
+        <activity android:name=".NavigationView.PointSystem" />
+        <activity android:name=".NavigationView.HowToPlay" />
+        <activity android:name=".NavigationView.MyCoupons" />
+        <activity android:name=".NavigationView.FindPeople" />
+        <activity android:name=".NavigationView.Earn" />
+        <activity android:name=".NavigationView.MyBalance" />
+        <activity android:name=".splashscreen.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Firebase.Register.Register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Firebase.Login.Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/home" />
+    </application>
+
+</manifest>

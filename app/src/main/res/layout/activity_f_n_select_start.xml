@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BottomNavigation.Home.FruitNinja.SelectStar.FNSelectStart">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/redlight"
+        android:layout_gravity="center_horizontal"
+        android:text="Please Select 1 star and 2 star/1 star 2x point, 2star 3x point"
+        ></TextView>
+
+
+    <GridView
+        android:id="@+id/gridview"
+        android:numColumns="1"
+        android:verticalSpacing="1dp"
+        android:background="#e5e5e5"
+        android:horizontalSpacing="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </GridView>
+
+        <Button
+            android:id="@+id/btshow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/redlight"
+            android:gravity="center"
+
+            android:text="JOIN"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="#F44336" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

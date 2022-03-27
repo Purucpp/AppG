@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".BottomNavigation.Home.FruitNinja.Second">
+
+
+
+
+    <GridView
+        android:id="@+id/gridview"
+        android:numColumns="1"
+
+
+        android:verticalSpacing="1dp"
+        android:background="#e5e5e5"
+        android:horizontalSpacing="1dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="60dp"
+        android:layout_height="wrap_content">
+
+    </GridView>
+
+
+
+
+</FrameLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical">-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="20dp"-->
+<!--            android:id="@+id/fntext"-->
+<!--            />-->
+<!--    </LinearLayout>-->
+
+
+
+
+
+
+<!--    <GridView-->
+<!--        android:id="@+id/gridview"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:numColumns="1"-->
+<!--        android:verticalSpacing="1dp"-->
+<!--        android:background="#e5e5e5"-->
+<!--        android:horizontalSpacing="1dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--    </GridView>-->
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:text="Submit"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+
+<!--        android:layout_height="50dp">-->
+
+<!--    </Button>-->
+
+
+<!--    <ListView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:id="@+id/checklist"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--    </ListView>-->
+
+
+<!--        <Button-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:text="Submit"-->
+<!--            android:id="@+id/btn"-->
+<!--            android:onClick="bt"-->
+<!--            android:textSize="20dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+
+<!--            android:layout_height="50dp">-->
+
+<!--        </Button>-->
+
+<!--    <CheckedTextView android:layout_height="wrap_content"-->
+<!--        android:layout_width="match_parent"-->
+
+<!--        android:checkMark="?android:attr/listChoiceIndicatorMultiple"-->
+<!--        android:padding="5dp"-->
+<!--        android:id="@+id/checkbox"-->
+<!--        xmlns:android="http://schemas.android.com/apk/res/android" />-->
+
+<!--    <CheckBox-->
+<!--        android:layout_width="match_parent"-->
+
+<!--        android:layout_height="wrap_content">-->
+
+<!--    </CheckBox>-->
+
+
+
+<!--    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        xmlns:tools="http://schemas.android.com/tools"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:paddingBottom="5dp"-->
+<!--        android:paddingLeft="5dp"-->
+<!--        android:paddingRight="5dp"-->
+<!--        android:paddingTop="5dp"-->
+<!--    tools:context=".BottomNavigation.Home.FruitNinja.Second"-->
+<!--        android:orientation="vertical"-->
+<!--        >-->
+
+<!--        <ListView-->
+<!--            android:id="@+id/checkable_list"-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            >-->
+
+<!--        </ListView>-->
+<!--        <Button-->
+<!--            android:id="@+id/btshow"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:onClick="showSelectedItems"-->
+<!--            android:text="Show selected items"-->
+<!--            />-->
+
+<!--    </LinearLayout>-->
+
+
